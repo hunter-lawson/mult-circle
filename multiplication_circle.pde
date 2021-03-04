@@ -62,7 +62,11 @@ void multCircle(int n, int r, int x, int y) {
   strokeWeight(4);
   ellipse(x, y, 2*r, 2*r);
 }
-
+void keyPressed() {
+  if(key == ' ') {
+    save("output.png");  
+  }
+}
 // Use this method to add additional statements
 // to customise the GUI controls
 public void customGUI(){
