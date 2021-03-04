@@ -1,4 +1,4 @@
-# mult-circle
+# multiplication_circle
 Modular multiplication circle visualizer written using the processing Java visual library. 
 Requires the [G4P](http://www.lagers.org.uk/g4p/index.html) and [QScript](http://www.lagers.org.uk/qscript/index.html) libraries by Peter Lager.
 
