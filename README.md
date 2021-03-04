@@ -35,3 +35,15 @@ If you want to create an animation or have the visualizer move, you can use "mod
 a=5;x+n/a-x%(n/a)
 
 ![example2](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example2.png)
+
+a=3;x+x%(n/a)
+
+![example3](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example3.png)
+
+a=5;x+n/a-x%(n/a)+(2+0.5*(a-5))*(n/a)
+
+![example4](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example4.png)
+
+a=10;x+n/a-x%(n/a)+(2+0.5*(a-4))*(n/a)
+
+![example5](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example5.png)
