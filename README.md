@@ -33,3 +33,5 @@ If you want to create an animation or have the visualizer move, you can use "mod
 ![example1](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example1.png)
 
 a=5;x+n/a-x%(n/a)
+
+![example2](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example2.png)
