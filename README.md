@@ -18,8 +18,18 @@ The graph window displays the current function being drawn. If a modulator is us
 ### Controls window
 The controls window has several controls:
 - You can insert an equation to graph and QScript will parse it and analyze it. Use x as the variable and "mod" if you wish to use a modulator.
-- The large horizontal slider adjusts how many points are being drawn in the graph. The default is 100.
+- The large horizontal slider adjusts how many points are being drawn in the graph(n). The default is 100.
 - The vertical slider adjusts the size of the circle in the graph window.
 - There are "mod" settings to set and adjust how the modulator behaves. You can set an intial value and an increment. There are also options to choose if mod is incremented linearly or exponentially. There is a button to reset the mod and a visualizer that shows its current value.
+- You can incorporate "n" into your function where n represents the number of points.
+- QScript allows variable declaration in the functions. Separate them from the rest of the function with a semicolon.
 ### Using the modulator
 If you want to create an animation or have the visualizer move, you can use "mod" in your function to represent a variable that changes every frame. For example: `x=mod` will rotate as mod increases.
+
+## Examples
+
+2*x
+
+![example1](https://github.com/hunter-lawson/multiplication_circle/blob/main/output/example1.png)
+
+a=5;x+n/a-x%(n/a)
